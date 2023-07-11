@@ -10,7 +10,7 @@ public class LoginPage extends Base {
         super(driver);
     }
 
-    By inputUser = By.xpath("//input[@placeholder='Email o teléfono']");
+    By inputUser = By.xpath("//input[contains(@placeholder,'Email')]");
     By inputPass = By.xpath("//input[@placeholder='Contraseña']");
 
     By submitButton = By.xpath("//button[@type='submit']");

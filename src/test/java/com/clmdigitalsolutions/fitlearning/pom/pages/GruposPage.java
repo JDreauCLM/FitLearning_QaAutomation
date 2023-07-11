@@ -68,7 +68,7 @@ public class GruposPage extends Base {
     }
 
     public void pressButtonCrear() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         click(buttonCrear);
     }
 

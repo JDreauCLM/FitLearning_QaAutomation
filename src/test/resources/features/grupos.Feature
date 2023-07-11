@@ -4,8 +4,8 @@ Feature: Flujos de grupos en backoffice
 
 
   Background: : Login del backoffice
-    Given ingreso al login del backoffice "https://beta.smartmobile.fit/backoffice"
-    When ingreso las credenciales "jdreau@clmdigitalsolutions.com""changeme"
+    Given ingreso al login del backoffice "https://beta-qa.smartmobile.fit/backoffice"
+    When ingreso las credenciales "sm-qa-admin5@gmail.com""changeme"
     And presiono el boton Entrar
 
 
@@ -20,8 +20,8 @@ Feature: Flujos de grupos en backoffice
     Examples:
       | titulo       | nombrePublico | fechaDesde | fechaHasta | contGrupo | cursosGrupo | tipo             | switch1 | switch2 |
       | "clm_test01" | "clm_test01"  | "24"       | "25"       | "Cursos"  | "test"      | "Semipresencial" | "on"    | "on"    |
-#      | "clm_test02" | "clm_test02"  | "24"       | "25"       | "Cursos"  | "test"      | "Semipresencial" | "on"    | "on"    |
-#      | "clm_test03" | "clm_test03"  | "24"       | "25"       | "Cursos"  | "test"      | "Semipresencial" | "on"    | "on"    |
+      | "clm_test02" | "clm_test02"  | "24"       | "25"       | "Cursos"  | "test"      | "Semipresencial" | "on"    | "on"    |
+      | "clm_test03" | "clm_test03"  | "24"       | "25"       | "Cursos"  | "test"      | "Semipresencial" | "on"    | "on"    |
 
 
 #  @eliminacionGrupo
